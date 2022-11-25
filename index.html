@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Студія</title>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+  <header class="roof">
+    <div class="conteiner main">
+     <a href="./index.html" class="roof-logo">Web<span class="roof-multi">Studio</span></a>
+     <nav>
+      <ul class="roof-nav list">
+        <li class="item"><a href="./index.html" class="nav-link current">Студія</a></li>
+        <li class="item"><a href="./portfolio.html" class="nav-link">Портфоліо</a></li>
+        <li class="item"><a href="./index.html" class="nav-link">Контакти</a></li>
+      </ul>
+     </nav>
+     <ul class="roof-connection list">
+       <li class="flash">
+        <a href="mailto:info@devstudio.com" class="connection-link"><svg width="16" height="12" class="small">
+          <use href="./images/symbol-defs-new.svg#icon-envelope-hover"></use>
+        </svg>info@devstudio.com</a>
+      </li>
+       <li class="flash">
+        <a href="tel:+380961111111" class="connection-link"><svg width="10" height="16" class="small">
+          <use href="./images/symbol-defs-new.svg#icon-smartphone"></use>
+        </svg>+38 096 111 11 11</a>
+      </li>
+     </ul>
+    </div>
+  </header>
+  <main>
+    <section class="hero overlay">
+       <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
+       <!--Вирішив що ця кнопка не е посиланням , а відкривае модальне вікно на цій же сторінці-->
+       <button type="button" class="button" data-modal-open>Замовити послугу</button>
+       <div class="backdrop is-hidden" data-modal>
+       <div class="modal">
+        <button class="closer" data-modal-close>
+        <svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" fill="none" class="onoff">
+          <path fill=""
+            d="M11 1.10786 9.89214 0 5.5 4.39214 1.10786 0 0 1.10786 4.39214 5.5 0 9.89214 1.10786 11 5.5 6.60786 9.89214 11 11 9.89214 6.60786 5.5 11 1.10786Z" />
+        </svg>
+        </button>
+        <form >
+            <p class="data">Залиште свої дані, ми вам передзвонимо</p>
+            <div class="form">
+              <label for="name" class="table">Ім'я</label>
+              <input type="text" name="name"  id="name" class="form-frame">
+              <svg width="18px" height="18px" class="mini">
+               <use href="./images/symbol-defs.svg#icon-person"></use>
+              </svg>
+            </div>
+            <div class="form" >
+              <label for="tel" class="table" >Телефон</label>
+              <input type="tel" name="tel" id="tel"  class="form-frame" >
+              <svg width="18px" height="18px" class="mini">
+                <use href="./images/symbol-defs.svg#icon-phone-black"></use>
+              </svg>
+            </div>
+            <div class="form" >
+              <label for="email" class="table" >Пошта</label>
+              <input type="email" name="mail" id="email" class="form-frame" >
+              <svg width="18px" height="18px" class="mini">
+                <use href="./images/symbol-defs.svg#icon-email-black"></use>
+              </svg>
+            </div>
+            <div class="form-textarea">
+              <label for="comment" class="table">Коментар</label>
+              <textarea name="comment" class="form-bigframe" id="comment"  cols="30" rows="7" placeholder="Введіть текст"></textarea>
+            </div>
+            <div class="policy">
+              <label class="check option">
+                <input class="check__input" type="checkbox">
+                <span class="check__box"></span>
+                Погоджуюся з розсилкою та приймаю <a href="" class="treaty">Умови договору</a>
+              </label>
+            </div>
+            <button type="submit" class="submit post" >Відправити</button>
+
+          </form>
+      
+       </div>
+       </div>
+    </section>
+    <section class="sechion benefits ">
+      <div class="conteiner">
+      <!--дав назву цій секціі , потім її сховаю -->
+      <h2 class="visually-hidden">Наші переваги</h2>
+      <ul class="advantage list">
+        <li class="balance">
+          <div class="icon-help">
+           <svg width="70px" height="70px">
+            <use href="./images/symbol-defs-new.svg#icon-Group"></use>
+           </svg>
+          </div>
+          <h3 class="sechion-title">УВАГА ДО ДЕТАЛЕЙ</h3>
+          <p class="idea list">
+            Ідейні міркування, та навіть початок повсякденної роботи з формування позиції.
+          </p>
+        </li>
+        <li class="balance">
+          <div class="icon-help">
+            <svg width="70px" height="70px">
+              <use href="./images/symbol-defs-new.svg#icon-clock"></use>
+            </svg>
+          </div>
+          <h3 class="sechion-title">ПУНКТУАЛЬНІСТЬ</h3>
+          <p class=" idea list">
+            Завдання організації, особливо рамки та місце навчання кадрів тягне у себе.
+          </p>
+        </li>
+        <li class="balance">
+          <div class="icon-help">
+            <svg width="70px" height="70px">
+              <use href="./images/symbol-defs-new.svg#icon-diagram"></use>
+            </svg>
+          </div>
+          <h3 class="sechion-title">ПЛАНУВАННЯ</h3>
+          <p class="idea list">
+            Так само консультація з широким активом значною мірою зумовлює.
+          </p>
+        </li>
+        <li class="balance">
+          <div class="icon-help">
+            <svg width="70px" height="70px">
+              <use href="./images/symbol-defs-new.svg#icon-astronaut"></use>
+            </svg>
+          </div>
+          <h3 class="sechion-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+          <p class=" idea list">
+            Значимість цих проблем настільки очевидна, що реалізація планових завдань.
+          </p>
+        </li>
+      </ul>
+      </div>
+    </section>
+    <section class="sechion activity">
+      <div class="conteiner">
+      <h2 class="sechion-title development">Чим ми займаємося</h2>
+       <ul class="gadget list">
+           <li class="home">
+            <img src="./images/comp.jpg" alt="computer on the table" width="370">
+            <p class="newtext">Десктопні додатки</p>
+          </li>
+          <li  class="home">
+            <img src="./images/comp2.jpg" alt="notebook" width="370">
+            <p class="newtext">Мобільні додатки</p>
+          </li>
+          <li class="home">
+            <img src="./images/comp3.jpg" alt="tablet" width="370">
+            <p class="newtext">Дизайнерські рішення</p>
+          </li>
+       </ul>
+      </div>
+    </section>
+    <section class="sechion team">
+      <div class="conteiner">
+      <h2 class="sechion-title development ">Наша команда</h2>
+      <ul class="group list">
+        <li class="friend">
+          <img src="./images/igor.jpg" alt="Igor Demjanenko Product Designer" width="270" height="260">
+          <div class="name">
+           <h3 class="sechion-title">Ігор Дем'яненко</h3>
+           <p class="speciality">Product Designer</p>
+           <ul class="net list">
+              <li class="freedom">
+                <a href="" class="social-net">
+                 <svg class="icon-net" width="20px" height="20px">
+                   <use href="./images/symbol-defs-new.svg#icon-instagram"></use>
+                 </svg>
+                </a>
+              </li>
+              <li class="freedom">
+                <a href=""class="social-net" >
+                <svg class="icon-net" width="20px" height="16px">
+                  <use href="./images/symbol-defs-new.svg#icon-Vector-2"></use>
+                </svg>
+                </a>
+              </li>
+              <li class="freedom">
+                <a href="" class="social-net">
+                <svg class="icon-net" width="10px" height="20px">
+                  <use href="./images/symbol-defs-new.svg#icon-Vector-1"></use>
+                </svg>
+                </a>
+              </li>
+              <li class="freedom">
+                <a href="" class="social-net">
+                <svg  class="icon-net" width="20px" height="20px">
+                  <use href="./images/symbol-defs-new.svg#icon-linkedin"></use>
+                </svg>
+                </a>
+             </li>
+            </ul>
+          </div>
+        </li>
+        <li class="friend">
+          <img src="./images/olga.jpg" alt="Olga Repina Frontend Developer" width="270" height="260">
+          <div class="name">
+           <h3 class="sechion-title">Ольга Рєпіна</h3>
+           <p class="speciality">Frontend Developer</p>
+          <ul class="net list">
+            <li class="freedom">
+              <a href="" class="social-net">
+                <svg class="icon-net" width="20px" height="20px">
+                  <use href="./images/symbol-defs-new.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="freedom">
+              <a href="" class="social-net">
+                <svg class="icon-net" width="20px" height="16px">
+                  <use href="./images/symbol-defs-new.svg#icon-Vector-2"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="freedom">
+              <a href="" class="social-net">
+                <svg class="icon-net" width="10px" height="20px">
+                  <use href="./images/symbol-defs-new.svg#icon-Vector-1"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="freedom">
+              <a href="" class="social-net">
+                <svg class="icon-net" width="20px" height="20px">
+                  <use href="./images/symbol-defs-new.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+          </div>
+        </li>
+        <li class="friend">
+          <img src="./images/mikola.jpg" alt="Mikola Tarasov Marketing" width="270" height="260">
+          <div class="name">
+           <h3 class="sechion-title">Микола Тарасов</h3>
+           <p class="speciality">Marketing</p>
+          <ul class="net list">
+            <li class="freedom">
+              <a href="" class="social-net">
+                <svg class="icon-net" width="20px" height="20px">
+                  <use href="./images/symbol-defs-new.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="freedom">
+              <a href="" class="social-net">
+                <svg class="icon-net" width="20px" height="16px">
+                  <use href="./images/symbol-defs-new.svg#icon-Vector-2"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="freedom">
+              <a href="" class="social-net">
+                <svg class="icon-net" width="10px" height="20px">
+                  <use href="./images/symbol-defs-new.svg#icon-Vector-1"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="freedom">
+              <a href="" class="social-net">
+                <svg class="icon-net" width="20px" height="20px">
+                  <use href="./images/symbol-defs-new.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+          </div>
+        </li>
+        <li class="friend">
+           <img src="./images/mihailo.jpg" alt="Mihailo Ermakov UI Designer" width="270" height="260">
+          <div class="name">
+           <h3 class="sechion-title">Михайло Єрмаков</h3>
+           <p class="speciality">UI Designer</p>
+          <ul class="net list">
+            <li class="freedom">
+              <a href="" class="social-net">
+                <svg class="icon-net" width="20px" height="20px">
+                  <use href="./images/symbol-defs-new.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="freedom">
+              <a href="" class="social-net">
+                <svg class="icon-net" width="20px" height="16px">
+                  <use href="./images/symbol-defs-new.svg#icon-Vector-2"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="freedom">
+              <a href="" class="social-net">
+                <svg class="icon-net" width="10px" height="20px">
+                  <use href="./images/symbol-defs-new.svg#icon-Vector-1"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="freedom">
+              <a href="" class="social-net">
+                <svg class="icon-net" width="20px" height="20px">
+                  <use href="./images/symbol-defs-new.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+          </div>
+        </li>
+      </ul>
+      </div>
+    </section>
+    <section class="sechion fichion">
+      <div class="conteiner">
+        <h2 class="sechion-title development">Постійні кліенти</h2>
+        <ul class="clients list">
+          <li>
+            <a href="" class="hope">
+             <svg width="106" height="60" class="logo">
+               <use href="./images/symbol-defs-new.svg#icon-Union-2"></use>
+             </svg>
+            </a> 
+          </li>
+          <li >
+            <a href="" class="hope">
+              <svg width="106" height="60" class="logo">
+                <use href="./images/symbol-defs-new.svg#icon-Union-1"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href=""class="hope">
+              <svg width="106" height="60" class="logo">
+                <use href="./images/symbol-defs-new.svg#icon-Object-1"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href=""class="hope">
+              <svg width="106" height="60" class="logo">
+                <use href="./images/symbol-defs-new.svg#icon-Logo-3"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href=""class="hope">
+              <svg width="106" height="60" class="logo">
+                <use href="./images/symbol-defs-new.svg#icon-Logo-1"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href=""class="hope">
+              <svg width="106" height="60" class="logo">
+                <use href="./images/symbol-defs-new.svg#icon-Logo-2"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="bigfooter conteiner">
+    <div class="halffooter">
+    <a href="./index.html" class="footer-logo">Web<span class="footer-multi">Studio</span></a>
+    <address class="address">
+      <ul class="contacts list">
+        <li class="contacts-item"><a href="https://goo.gl/maps/RR4ERz3BGo1rFnMU8" class="contacts-addres" target="_blank" rel="noopener norefferer nofoiiow">м. Київ,
+            пр-т Лесі Українки, 26</a></li>
+        <li class="contacts-item"><a href="mailto:info@devstudio.com" class="contacts-link">info@devstudio.com</a></li>
+        <li class="contacts-item"><a href="tel:+380961111111" class="contacts-link">+38 096 111 11 11</a></li>
+      </ul>
+    </address>
+    </div>
+    <div>
+    <p class="accession">ПРИЕДНУЙТЕСЬ</p>
+    <ul class="netlist list">
+      <li class="help">
+        <a href="" class="combo-net" >
+        <svg class="netlisticon" width="20px" height="20px">
+          <use href="./images/symbol-defs-new.svg#icon-instagram"></use>
+        </svg>
+        </a>
+      </li>
+      <li class="help">
+        <a href=""class="combo-net">
+        <svg class="netlisticon" width="20px" height="16px">
+          <use href="./images/symbol-defs-new.svg#icon-Vector-2"></use>
+        </svg>
+        </a>
+      </li>
+      <li class="help">
+        <a href=""class="combo-net" >
+        <svg class="netlisticon" width="10px" height="20px">
+          <use href="./images/symbol-defs-new.svg#icon-Vector-1"></use>
+        </svg>
+        </a>
+      </li>
+      <li class="help">
+        <a href=""class="combo-net">
+        <svg class="netlisticon" width="20px" height="20px"><use href="./images/symbol-defs-new.svg#icon-linkedin"></use></svg>
+        </a>
+      </li>
+    </ul>
+    </div>
+    <div class="subscription">
+    <p class="accession">ПІДПИШІТЬСЯ НА РОЗСИЛКУ</p>
+    <form action="" class="signature">
+      <input type="email" name="email" placeholder="E-mail" />
+      <button type="submit" class="submit plus">Підписатися
+        <svg class="plaine" width="24px" height="24px">
+          <use href="./images/symbol-defs.svg#icon-icon-send-2"></use>
+        </svg>
+      </button>
+    </form>
+    </div>
+    </div>
+  </footer>
+  <script src="./js/modal.js"></script>
+</body>
+</html>
