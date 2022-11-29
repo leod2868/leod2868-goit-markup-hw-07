@@ -1,0 +1,67 @@
+.group {
+    display: flex;
+    gap: 30px;
+    @extend %list ;
+    & .sechion-title {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.19;
+        letter-spacing: 0.03em;
+        margin-bottom: 10px;
+        margin-top: 0;
+        }
+    }
+.friend {
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    text-align: center;
+        }
+.name {
+    padding-top: 30px;
+    padding-bottom: 30px;
+         }
+    
+.speciality {
+     margin-top: 0;
+     margin-bottom: 16px;
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 1.19;
+     letter-spacing: 0.03em;
+         }
+    
+.icon-net {
+    fill: currentColor
+         }
+    
+.team {
+    background-color: $thirdly-background-color;
+    padding-top: 94px;
+    padding-bottom: 94px;
+         }
+    
+.net {
+    display: flex;
+    justify-content: center;
+    @extend %list;
+         }
+.social-net {
+    display: flex;
+    width: 44px;
+    height: 44px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: #AFB1B8;
+    transition: background-color 250ms $timing-function,
+    color 250ms $timing-function;
+    &:hover {
+            background-color: $accent-color;
+            color: $white-color;
+        }
+
+}
+.freedom:not(:last-child) {
+    margin-right: 10px;
+}

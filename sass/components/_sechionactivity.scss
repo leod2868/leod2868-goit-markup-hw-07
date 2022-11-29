@@ -1,0 +1,34 @@
+.activity {
+    padding-bottom: 94px;
+}
+.development {
+    margin-top: 0;
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+}
+.home {
+    position: relative;
+}
+.newtext {
+    font-weight: 700;
+    line-height: 1.14;
+    color: var(--white-color);
+    text-transform: uppercase;
+    position: absolute;
+    width: 100%;
+    height: 70px;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(47, 48, 58, 0.8);
+}
+.gadget
+ {
+    display: flex;
+    gap: 30px;
+    @extend %list;
+    }

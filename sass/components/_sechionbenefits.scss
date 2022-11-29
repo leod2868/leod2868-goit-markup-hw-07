@@ -1,0 +1,40 @@
+.benefits {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    @extend %conteiner;
+}
+.advantage {
+    display: flex;
+    @extend %list;
+    }
+    
+.balance {
+    width: 270px;
+    &:not(:last-child) {
+            margin-right: 30px;
+        }
+}
+.icon-help {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $thirdly-background-color;
+    border-radius: 4px;
+    margin-bottom: 30px;
+    height: 120px;
+}
+.advantage .sechion-title {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    color: $title-text-color;
+}
+.idea {
+    line-height: 1.7;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+    @extend %list;
+}

@@ -1,0 +1,30 @@
+.clients {
+    display: flex;
+    gap: 30px;
+    @extend %list;
+}
+.hope {
+    display: flex;
+    width: 170px;
+    height: 92px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid currentColor;
+    border-radius: 4px;
+    color: #AFB1B8;
+    transition: color 250ms var $timing-function;
+    &:hover {
+            color: $accent-color;
+}
+}
+.logo {
+    fill: currentColor;
+    transition: fill 250ms $timing-function;
+    &:hover {
+            fill: $accent-color;
+        }
+}
+.fichion {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}

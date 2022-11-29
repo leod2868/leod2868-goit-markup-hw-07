@@ -1,0 +1,33 @@
+.address {
+    font-style: normal;
+    margin-top: 20px;
+}
+.contacts-addres {
+    color: $white-color;
+    text-decoration: none;
+    line-height: 1.71;
+    margin-bottom: 9px;
+    transition: color 250ms $timing-function;
+    &:hover, &:focus {
+            color: $accent-color;
+        }
+}
+.contacts-link {
+    color: $footer-text-color;
+    text-decoration: none;
+    line-height: 1.71;
+    transition: color 250ms $timing-function;
+    &:hover,
+        &:focus {
+            color: $accent-color;
+        }
+}
+.contacts-item {
+    margin-bottom: 9px;
+    &:last-child {
+            margin-bottom: 0;
+        }
+}
+.contacts {
+    @extend %list ;
+}
