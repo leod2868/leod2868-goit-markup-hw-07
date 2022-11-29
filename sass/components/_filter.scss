@@ -1,0 +1,37 @@
+.top {
+    border: 1px solid #ECECEC;
+}
+.products {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    @extend %list ;
+}
+.filter {
+    padding: 94px 0;
+}
+.part:not(:last-child) {
+    margin-right: 8px;
+}
+.new-button {
+    color: $title-text-color;
+    background-color: $thirdly-background-color;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: 0.03em;
+    padding: 6px 22px;
+    transition: color 250ms $timing-function,
+        background-color 250ms $timing-function,
+        box-shadow 250ms $timing-function;
+    &:hover, &:focus {
+            color: $white-color;
+            background-color: $accent-color;
+            box-shadow:
+                0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+                0px 1px 2px 0px rgba(0, 0, 0, 0.08),
+                0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+        }
+}

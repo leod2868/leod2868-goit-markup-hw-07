@@ -675,21 +675,21 @@ margin-left: 12px;
   margin-left: auto;
 } */
 /* стілізація сторінки portofolio */
-.top {
+/* .top {
   border: 1px solid #ECECEC;
-}
-.filter {
+} */
+/* .filter {
   padding: 94px 0;
-}
-.products {
+} */
+/* .products {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
-}
-.part:not(:last-child) {
+} */
+/* .part:not(:last-child) {
 margin-right: 8px;
-}
-.new-button {
+} */
+/* .new-button {
   color: var(--title-text-color);
   background-color: var(--thirdly-background-color);
   font-family: inherit;
@@ -702,8 +702,8 @@ margin-right: 8px;
   transition: color 250ms var(--timing-function) ,
               background-color 250ms var(--timing-function),
               box-shadow 250ms var(--timing-function);
-  }
-.new-button:hover,
+  } */
+/* .new-button:hover,
 .new-button:focus {
   color: var(--white-color);
   background-color: var(--accent-color);
@@ -711,21 +711,21 @@ margin-right: 8px;
    0px 2px 2px 0px rgba(0, 0, 0, 0.12),
    0px 1px 2px 0px rgba(0, 0, 0, 0.08),
    0px 3px 1px 0px rgba(0, 0, 0, 0.1);
-}
-.flax {
+} */
+/* .flax {
   display: flex;
   flex-wrap: wrap;
-}
+} */
 
-.card {
+/* .card {
   font-weight: 700;
   font-size: 18px;
   line-height: 2.0;
   letter-spacing: 0.06em;
   margin-bottom: 4px;
   margin-top: 0;
-}
-.section-text {
+} */
+/* .section-text {
   font-size: 16px;
   line-height: 1.9;
   color: var(--primary-text-color);
@@ -734,8 +734,8 @@ margin-right: 8px;
   text-decoration: none;
   display: block;
   transition: box-shadow 250ms var(--timing-function);
-   }
- .mistral {
+   } */
+ /* .mistral {
   position: relative;
   overflow: hidden;
  }
@@ -746,33 +746,32 @@ margin-right: 8px;
   top: 0%;
   background-color: rgba(33, 150, 243, 0.9);
   padding: 63px 24px;
-  /* opacity: 0; */
   transform: translateY(100%);
   transition: transform 250ms var(--timing-function);
- }  
+ } 
  .nlow { 
   font-size: 18px;
   line-height: 1.56;
   color: var(--white-color);
- }
- .aim:hover .brend ,
+ } */
+ /* .aim:hover .brend ,
  .aim:focus .brend
  {
   transform: translateY(0);
- }
-.aim:hover ,
+ } */
+/* .aim:hover ,
 .aim:focus {
  box-shadow:
   1px 4px 6px 0px rgba(0, 0, 0, 0.16),
   0px 4px 4px 0px rgba(0, 0, 0, 0.06),
   0px 1px 1px 0px rgba(0, 0, 0, 0.12);
-}
-.combo {
+} */
+/* .combo {
   background: #FFFFFF;
   border: 1px solid #EEEEEE;
   padding: 20px 24px;
-}
-.direction {
+} */
+/* .direction {
   margin-right: 30px;
   margin-bottom: 30px;
   
@@ -782,8 +781,8 @@ margin-right: 8px;
 }
 .direction:nth-last-child(-n+3) {
   margin-bottom: 0;
-}
-.visually-hidden {
+} */
+/* .visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -795,4 +794,4 @@ margin-right: 8px;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
+} */
