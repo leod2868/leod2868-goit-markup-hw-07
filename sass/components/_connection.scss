@@ -1,0 +1,39 @@
+.roof-connection {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    gap: 30px;
+    @extend %list;
+    & .item:not(:last-child) {
+            margin-right: 50px;
+        }
+}
+.connection-link {
+     color: $primary-text-color;
+     text-decoration: none;
+     font-weight: 500;
+     font-size: 14px;
+     line-height: 1.14;
+     letter-spacing: 0.02em;
+     display: flex;
+     align-items: center;
+     padding-top: 32px;
+     padding-bottom: 32px;
+     transition: color 250ms $timing-function;
+     &:hover,
+     &:focus {
+            color: $accent-color;
+        }
+}
+
+.flash {
+    display: flex;
+}
+.small {
+    fill: currentColor;
+    margin-right: 10px;
+    transition: fill 250ms $timing-function;
+    &:hover {
+            fill: $accent-color;
+        }
+}
