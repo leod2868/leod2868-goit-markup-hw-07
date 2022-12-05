@@ -169,7 +169,7 @@
 
 .check__input:checked+.check__box {
     background-color: var(--accent-color);
-    background-image: url(../../images/superturbo.svg);
+    background-image: url('../../images/superturbo.svg');
     background-size: contain;
 }
 
