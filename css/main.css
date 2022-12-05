@@ -470,7 +470,7 @@ button {
   height: 600px;
   margin-left: auto;
   margin-right: auto;
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/baner.jpg);
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../images/baner.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -672,7 +672,7 @@ button {
 /* Checked */
 .check__input:checked + .check__box {
   background-color: var(--accent-color);
-  background-image: url("/images/superturbo.svg");
+  background-image: url("../../images/superturbo.svg");
   background-size: contain;
 }
 
@@ -752,7 +752,7 @@ button {
 .newtext {
   font-weight: 700;
   line-height: 1.14;
-  color: var(--white-color);
+  color: #FFFFFF;
   text-transform: uppercase;
   position: absolute;
   width: 100%;
@@ -851,7 +851,7 @@ button {
   border: 1px solid currentColor;
   border-radius: 4px;
   color: #AFB1B8;
-  transition: color 250ms var cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .hope:hover {
   color: #2196F3;
